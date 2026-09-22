@@ -1,0 +1,149 @@
+[
+  {
+    "url": "https://sfcompute.com/",
+    "path": "pages/index.html",
+    "status": 200,
+    "bytes": 160218,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://sfcompute.com/about",
+    "path": "pages/about.html",
+    "status": 200,
+    "bytes": 76775,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://sfcompute.com/specs",
+    "path": "pages/specs.html",
+    "status": 200,
+    "bytes": 71149,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://sfcompute.com/contact",
+    "path": "pages/contact.html",
+    "status": 200,
+    "bytes": 160789,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://sfcompute.com/requirements",
+    "path": "pages/requirements.html",
+    "status": 200,
+    "bytes": 69271,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://sfcompute.com/changelog",
+    "path": "pages/changelog.html",
+    "status": 200,
+    "bytes": 256005,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://sfcompute.com/news",
+    "path": "pages/news.html",
+    "status": 200,
+    "bytes": 110303,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://sfcompute.com/news/commodity-markets",
+    "path": "pages/news/commodity-markets.html",
+    "status": 200,
+    "bytes": 278774,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://sfcompute.com/news/abel-ledger",
+    "path": "pages/news/abel-ledger.html",
+    "status": 200,
+    "bytes": 198729,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://sfcompute.com/news/hiring-director-governance-risk-compliance",
+    "path": "pages/news/hiring-director-governance-risk-compliance.html",
+    "status": 200,
+    "bytes": 76795,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://sfcompute.com/news/sfc-autoresearch",
+    "path": "pages/news/sfc-autoresearch.html",
+    "status": 200,
+    "bytes": 160624,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://sfcompute.com/news/tcv-q3-2026",
+    "path": "pages/news/tcv-q3-2026.html",
+    "status": 200,
+    "bytes": 86153,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://sfcompute.com/news/realized-discount",
+    "path": "pages/news/realized-discount.html",
+    "status": 200,
+    "bytes": 755474,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://sfcompute.com/news/sf-compute-series-a",
+    "path": "pages/news/sf-compute-series-a.html",
+    "status": 200,
+    "bytes": 72340,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://sfcompute.com/legal/terms-of-service",
+    "path": "pages/legal/terms-of-service.html",
+    "status": 200,
+    "bytes": 161665,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://sfcompute.com/legal/privacy-policy",
+    "path": "pages/legal/privacy-policy.html",
+    "status": 200,
+    "bytes": 124317,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://sfcompute.com/legal/dpa",
+    "path": "pages/legal/dpa.html",
+    "status": 200,
+    "bytes": 203270,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://sfcompute.com/legal/acceptable-use-policy",
+    "path": "pages/legal/acceptable-use-policy.html",
+    "status": 200,
+    "bytes": 70476,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://sfcompute.com/legal/sla",
+    "path": "pages/legal/sla.html",
+    "status": 200,
+    "bytes": 87192,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://sfcompute.com/blog",
+    "path": "pages/blog.html",
+    "status": 200,
+    "bytes": 30594,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://sfcompute.com/blog/tiny-narrations",
+    "path": "pages/blog/tiny-narrations.html",
+    "status": 200,
+    "bytes": 45693,
+    "content_type": "text/html; charset=utf-8"
+  }
+]

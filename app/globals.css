@@ -1,0 +1,124 @@
+@import "tailwindcss";
+@import "./theme.generated.css";
+
+/* The source site compiles Tailwind v4 with a single custom breakpoint at
+   1000px (`lg:` is the only prefix its markup uses). Clear the stock scale so
+   `lg:` means the same thing here that it does there. */
+@theme {
+  --breakpoint-sm: initial;
+  --breakpoint-md: initial;
+  --breakpoint-lg: 1000px;
+  --breakpoint-xl: initial;
+  --breakpoint-2xl: initial;
+}
+
+/* Vendored webfonts — no third-party font origin. Metrics-matched Arial
+   fallbacks are copied from the source site's own @font-face sheet. */
+@font-face {
+  font-family: fontSans;
+  src: url(/fonts/ABCDiatype-Regular.woff2) format("woff2");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: fontSans;
+  src: url(/fonts/ABCDiatype-Medium.woff2) format("woff2");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: fontSans;
+  src: url(/fonts/ABCDiatype-Bold.woff2) format("woff2");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "fontSans Fallback";
+  src: local(Arial);
+  ascent-override: 97.51%;
+  descent-override: 27%;
+  line-gap-override: 0%;
+  size-adjust: 99.28%;
+}
+
+@font-face {
+  font-family: fontMono;
+  src: url(/fonts/ABCDiatypeMono-Regular.woff2) format("woff2");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: fontMono;
+  src: url(/fonts/ABCDiatypeMono-Medium.woff2) format("woff2");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "fontMono Fallback";
+  src: local(Arial);
+  ascent-override: 73.62%;
+  descent-override: 20.38%;
+  line-gap-override: 0%;
+  size-adjust: 131.49%;
+}
+
+@font-face {
+  font-family: fontDisplay;
+  src: url(/fonts/ABCOtto-Regular.woff2) format("woff2");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "fontDisplay Fallback";
+  src: local(Arial);
+  ascent-override: 90.08%;
+  descent-override: 24.33%;
+  line-gap-override: 0%;
+  size-adjust: 106.46%;
+}
+
+:root {
+  --font-sans-base: "fontSans", "fontSans Fallback";
+  --font-mono-base: "fontMono", "fontMono Fallback";
+  --font-display-base: "fontDisplay", "fontDisplay Fallback";
+}
+
+@layer base {
+  html {
+    background-color: var(--color-page);
+    scrollbar-gutter: stable;
+    height: 100%;
+  }
+
+  body {
+    height: 100%;
+    accent-color: var(--color-link);
+    background-color: var(--color-page);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background: #cfd5e0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,13 @@
+<!-- About -->
+
+# About San Francisco Compute
+
+San Francisco Compute exists to give ambitious teams large scale supercomputers without taking on a catastrophic balance sheet risk. Most GPU clouds force you to sign long term contracts with no way out. If you underbuy, you miss the window. If you overbuy, you’ll blow up with no way out. It’s a desperate gamble that San Francisco Compute does not force you to play.
+
+Originally, SFC was an AI lab that bought too big of a GPU cluster and was forced to sublease it or go under. Today, we build data centers, supercomputers, and then lease those machines on contracts that let our customers sublease. More than anyone else in the industry, we deeply felt the pain and fear of being forced to bet the farm with your neocloud vendor. To make it possible to sublease, we invented the first compute market and became the first one to offer physical settlement. That means we operate GPU clusters like a neocloud and derisk our customers like a market.
+
+Customers buying GPU clusters don't want to work through a network of brokers. They want to transact with the folks that have the keys to the cluster and can own the SLA.
+
+To keep the industry safe from unnecessary risk, SFC needs to scale fast. To do that, we serve financially motivated parties as a technical partner to build, operate, & lease supercomputers on their behalf. Basically, we help folks who want an economic return build GPU clusters on their balance sheet, but operated in full by us. That allows us to retain the technical control needed to operate a cloud, but scale fast like a market. SFC’s ability to offer subleasing can significantly increase the levered returns for cluster owners. Our hybrid model out-performs brokered contracts or other "compute markets", who have to go through a network of counterparties to solve problems. It also lets us design custom solutions for our customers, like clusters deployed in regions next to your dataset or physical eval set or a large CPU fleet deployed colocated with your GPU cluster.
+
+Our team includes senior & technical leadership from places like Lambda, Crusoe, Digital Ocean, AWS, and Hut8. Our CTO is the cofounder and former CEO of Voltage Park. In prior roles, our team has deployed 8GW of datacenter capacity & hundreds of thousands of GPUs. We’ve been described as having “the highest talent density in the space.” If you are an honorable, gritty person with eyes wide open & good epistemics, who wants to see AI go right, we’d love to work with you. There has never been a more critical moment in history and it is up to us to shape it on behalf of those who come after us.

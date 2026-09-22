@@ -1,0 +1,77 @@
+(globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push([
+  "object" == typeof document ? document.currentScript : void 0,
+  222767,
+  (e) => {
+    "use strict";
+    var r = e.i(843476),
+      t = e.i(617249),
+      i = e.i(618566);
+    let s = [{ title: "Overview", href: "/requirements" }],
+      l = [
+        { title: "Overview", href: "/requirements" },
+        { title: "Version 2 (current)", href: "/requirements/clusters/v2" },
+        { title: "Version 1", href: "/requirements/clusters/v1" },
+      ],
+      n = [
+        { title: "Overview", href: "/requirements" },
+        { title: "Version 2 (current)", href: "/requirements/colo/v2" },
+        { title: "Version 1", href: "/requirements/colo/v1" },
+      ];
+    e.s(
+      [
+        "RequirementsNav",
+        0,
+        function () {
+          let e = (0, i.usePathname)(),
+            a = e.startsWith("/requirements/clusters") ? l : e.startsWith("/requirements/colo") ? n : s;
+          return (0, r.jsx)(t.NavDocs, { docs: a, ariaLabel: "Requirements documents" });
+        },
+      ],
+      222767,
+    );
+  },
+  617249,
+  (e) => {
+    "use strict";
+    var r = e.i(843476),
+      t = e.i(663277),
+      i = e.i(522016),
+      s = e.i(618566);
+    e.s([
+      "NavDocs",
+      0,
+      function ({ docs: e, ariaLabel: l }) {
+        let n = (0, s.usePathname)();
+        return (0, r.jsx)("nav", {
+          "aria-label": l,
+          className: "flex h-full flex-col pt-36 pr-7 pb-11 pl-7",
+          children: (0, r.jsx)("ul", {
+            className: "pointer-events-auto flex flex-col gap-2",
+            children: e.map((e) => {
+              let s = n === e.href;
+              return (0, r.jsx)(
+                "li",
+                {
+                  children: (0, r.jsx)(i.default, {
+                    href: e.href,
+                    "aria-current": s ? "page" : void 0,
+                    className: (0, t.cn)(
+                      "block w-fit text-[13px] leading-[1.5] tracking-[0.02em] transition-colors",
+                      s ? "text-dark-900" : "text-secondary hover:text-dark-900",
+                    ),
+                    children: e.title,
+                  }),
+                },
+                e.href,
+              );
+            }),
+          }),
+        });
+      },
+    ]);
+  },
+  558738,
+  (e) => {
+    e.v((e) => Promise.resolve().then(() => e(881986)));
+  },
+]);

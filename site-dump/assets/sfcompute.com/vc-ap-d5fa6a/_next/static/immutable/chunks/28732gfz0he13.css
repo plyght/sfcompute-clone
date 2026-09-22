@@ -1,0 +1,90 @@
+@font-face {
+  font-family: fontSans;
+  src: url(../media/ABCDiatype_Regular-s.p.2vopfjrqq5-b7.woff2) format("woff2");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: fontSans;
+  src: url(../media/ABCDiatype_Medium-s.p.090j98qro4syr.woff2) format("woff2");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: fontSans;
+  src: url(../media/ABCDiatype_Bold-s.p.21868_mt8m6n_.woff2) format("woff2");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: fontSans Fallback;
+  src: local(Arial);
+  ascent-override: 97.51%;
+  descent-override: 27%;
+  line-gap-override: 0%;
+  size-adjust: 99.28%;
+}
+.fontsans_66ed2990-module__8MkuSW__className {
+  font-family:
+    fontSans,
+    fontSans Fallback;
+}
+.fontsans_66ed2990-module__8MkuSW__variable {
+  --font-sans-base: "fontSans", "fontSans Fallback";
+}
+@font-face {
+  font-family: fontMono;
+  src: url(../media/ABCDiatypeMono_Regular-s.p.2fatjo_7kmule.woff2) format("woff2");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: fontMono;
+  src: url(../media/ABCDiatypeMono_Medium-s.p.439qb-n47k49i.woff2) format("woff2");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: fontMono Fallback;
+  src: local(Arial);
+  ascent-override: 73.62%;
+  descent-override: 20.38%;
+  line-gap-override: 0%;
+  size-adjust: 131.49%;
+}
+.fontmono_a3f28b7d-module__EB3pQG__className {
+  font-family:
+    fontMono,
+    fontMono Fallback;
+}
+.fontmono_a3f28b7d-module__EB3pQG__variable {
+  --font-mono-base: "fontMono", "fontMono Fallback";
+}
+@font-face {
+  font-family: fontDisplay;
+  src: url(../media/ABCOtto_Regular-s.p.2e38b43-d3gsi.woff2) format("woff2");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: fontDisplay Fallback;
+  src: local(Arial);
+  ascent-override: 90.08%;
+  descent-override: 24.33%;
+  line-gap-override: 0%;
+  size-adjust: 106.46%;
+}
+.fontdisplay_6a7856ba-module__72pwFq__className {
+  font-family:
+    fontDisplay,
+    fontDisplay Fallback;
+}
+.fontdisplay_6a7856ba-module__72pwFq__variable {
+  --font-display-base: "fontDisplay", "fontDisplay Fallback";
+}

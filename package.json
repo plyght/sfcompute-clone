@@ -1,0 +1,27 @@
+{
+  "name": "sfcompute-clone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint",
+    "site:shots": "node scripts/screenshot-diff.mjs",
+    "site:smoke": "node scripts/smoke-check.mjs"
+  },
+  "dependencies": {
+    "next": "15.5.4",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.13",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4.1.13",
+    "typescript": "^5.7.3",
+    "playwright": "^1.50.0"
+  }
+}

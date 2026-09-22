@@ -1,0 +1,14 @@
+User-Agent: *
+Allow: /
+Disallow: /dashboard
+Disallow: /admin
+Disallow: /api
+Disallow: /auth
+Disallow: /settings
+Disallow: /org
+Disallow: /cli
+Disallow: /waitlist
+Disallow: /private
+
+Host: https://sfcompute.com
+Sitemap: https://sfcompute.com/sitemap.xml

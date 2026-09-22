@@ -1,0 +1,594 @@
+{
+  "assets": [
+    {
+      "url": "https://sfcompute.com/home/logo-wordmark.svg",
+      "path": "assets/sfcompute.com/home/logo-wordmark.svg",
+      "status": 200,
+      "bytes": 17326,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://sfcompute.com/favicon.ico?favicon.3hj72vk6ywzpz.ico",
+      "path": "assets/sfcompute.com/favicon.ico_3f66617669",
+      "status": 200,
+      "bytes": 15086,
+      "content_type": "image/vnd.microsoft.icon"
+    },
+    {
+      "url": "https://sfcompute.com/home/md-toggle.svg",
+      "path": "assets/sfcompute.com/home/md-toggle.svg",
+      "status": 200,
+      "bytes": 2641,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://sfcompute.com/about.md",
+      "path": "assets/sfcompute.com/about.md",
+      "status": 200,
+      "bytes": 2665,
+      "content_type": "text/markdown; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/3fj3ssz0fg3bx.js",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/3fj3ssz0fg3bx.js",
+      "status": 200,
+      "bytes": 6570,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/28732gfz0he13.css",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/28732gfz0he13.css",
+      "status": 200,
+      "bytes": 1961,
+      "content_type": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/2lozen1ojancq.css",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/2lozen1ojancq.css",
+      "status": 200,
+      "bytes": 5319,
+      "content_type": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/1-9jqeenzti5i.js",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/1-9jqeenzti5i.js",
+      "status": 200,
+      "bytes": 32922,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/127pf9ia_uvmn.css",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/127pf9ia_uvmn.css",
+      "status": 200,
+      "bytes": 168671,
+      "content_type": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/2wbqsg3o69r1l.js",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/2wbqsg3o69r1l.js",
+      "status": 200,
+      "bytes": 162170,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/icon.svg?icon.3rt2y1zs5estt.svg",
+      "path": "assets/sfcompute.com/icon.svg_3f69636f6e",
+      "status": 200,
+      "bytes": 3418,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/turbopack-0pcagq2hx47_7.js",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/turbopack-0pcagq2hx47_7.js",
+      "status": 200,
+      "bytes": 11000,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/2ocrfm1bl_ipv.js",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/2ocrfm1bl_ipv.js",
+      "status": 200,
+      "bytes": 228545,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/1391c5nx25n04.js",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/1391c5nx25n04.js",
+      "status": 200,
+      "bytes": 5806,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/1e0zmjgsnkbhv.js",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/1e0zmjgsnkbhv.js",
+      "status": 200,
+      "bytes": 23751,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/1y92eg89qxm72.js",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/1y92eg89qxm72.js",
+      "status": 200,
+      "bytes": 27349,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/2owe0j96u3i4q.js",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/2owe0j96u3i4q.js",
+      "status": 200,
+      "bytes": 30131,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/2y7rg9q3bsbu2.js",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/2y7rg9q3bsbu2.js",
+      "status": 200,
+      "bytes": 44721,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/35nr23cd8a3e5.js",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/35nr23cd8a3e5.js",
+      "status": 200,
+      "bytes": 73294,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/0vjydhxky343n.js",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/0vjydhxky343n.js",
+      "status": 200,
+      "bytes": 35475,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/2sqqqwgwh3kjz.js",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/2sqqqwgwh3kjz.js",
+      "status": 200,
+      "bytes": 4310,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/3x_pl75-wz6a6.js",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/3x_pl75-wz6a6.js",
+      "status": 200,
+      "bytes": 46287,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/0x-9rc1bm-510.js",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/0x-9rc1bm-510.js",
+      "status": 200,
+      "bytes": 14434,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+      "status": 200,
+      "bytes": 112594,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/about",
+      "path": "assets/sfcompute.com/about.bin",
+      "status": 200,
+      "bytes": 76775,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/0p0avkq0eyq_r.js",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/0p0avkq0eyq_r.js",
+      "status": 200,
+      "bytes": 31573,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/home/geo-wind.svg",
+      "path": "assets/sfcompute.com/home/geo-wind.svg",
+      "status": 200,
+      "bytes": 722,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://sfcompute.com/home/logos/logo-1.svg",
+      "path": "assets/sfcompute.com/home/logos/logo-1.svg",
+      "status": 200,
+      "bytes": 3365,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://sfcompute.com/home/logos/logo-2.svg",
+      "path": "assets/sfcompute.com/home/logos/logo-2.svg",
+      "status": 200,
+      "bytes": 5336,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://sfcompute.com/home/logos/logo-3.svg",
+      "path": "assets/sfcompute.com/home/logos/logo-3.svg",
+      "status": 200,
+      "bytes": 9661,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://sfcompute.com/home/geo-tide.svg",
+      "path": "assets/sfcompute.com/home/geo-tide.svg",
+      "status": 200,
+      "bytes": 452,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://sfcompute.com/home/logos/logo-4.svg",
+      "path": "assets/sfcompute.com/home/logos/logo-4.svg",
+      "status": 200,
+      "bytes": 16742,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://sfcompute.com/opengraph-image.jpg?opengraph-image.10-4s-pz5j3xe.jpg",
+      "path": "assets/sfcompute.com/opengraph-image.jpg_3f6f70656e",
+      "status": 200,
+      "bytes": 415306,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://sfcompute.com/home/logos/logo-5.svg",
+      "path": "assets/sfcompute.com/home/logos/logo-5.svg",
+      "status": 200,
+      "bytes": 560,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://sfcompute.com/contact.md",
+      "path": "assets/sfcompute.com/contact.md",
+      "status": 200,
+      "bytes": 391,
+      "content_type": "text/markdown; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/3_a6mvkm_5usg.js",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/3_a6mvkm_5usg.js",
+      "status": 200,
+      "bytes": 9150,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/2x2mv6t33ponx.js",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/2x2mv6t33ponx.js",
+      "status": 200,
+      "bytes": 43773,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/index.md",
+      "path": "assets/sfcompute.com/index.md",
+      "status": 200,
+      "bytes": 2786,
+      "content_type": "text/markdown; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/0zzd-593532l1.js",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/0zzd-593532l1.js",
+      "status": 200,
+      "bytes": 8808,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/1x7429wyusatm.js",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/1x7429wyusatm.js",
+      "status": 200,
+      "bytes": 1476,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/42_oqaoviwwug.js",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/42_oqaoviwwug.js",
+      "status": 200,
+      "bytes": 46663,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/078dkagde8mcz.js",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/078dkagde8mcz.js",
+      "status": 200,
+      "bytes": 2151,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/09ob5y3wn_zuh.css",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/09ob5y3wn_zuh.css",
+      "status": 200,
+      "bytes": 1902,
+      "content_type": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/specs.md",
+      "path": "assets/sfcompute.com/specs.md",
+      "status": 200,
+      "bytes": 1523,
+      "content_type": "text/markdown; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/3jywhg9pc-bb9.js",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/chunks/3jywhg9pc-bb9.js",
+      "status": 200,
+      "bytes": 6671,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/media/ABCDiatype_Regular-s.p.2vopfjrqq5-b7.woff2",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/media/ABCDiatype_Regular-s.p.2vopfjrqq5-b7.woff2",
+      "status": 200,
+      "bytes": 49380,
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/media/ABCDiatype_Medium-s.p.090j98qro4syr.woff2",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/media/ABCDiatype_Medium-s.p.090j98qro4syr.woff2",
+      "status": 200,
+      "bytes": 58472,
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/media/ABCDiatype_Bold-s.p.21868_mt8m6n_.woff2",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/media/ABCDiatype_Bold-s.p.21868_mt8m6n_.woff2",
+      "status": 200,
+      "bytes": 56884,
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/media/ABCDiatypeMono_Regular-s.p.2fatjo_7kmule.woff2",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/media/ABCDiatypeMono_Regular-s.p.2fatjo_7kmule.woff2",
+      "status": 200,
+      "bytes": 29732,
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/media/ABCDiatypeMono_Medium-s.p.439qb-n47k49i.woff2",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/media/ABCDiatypeMono_Medium-s.p.439qb-n47k49i.woff2",
+      "status": 200,
+      "bytes": 30572,
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/media/ABCOtto_Regular-s.p.2e38b43-d3gsi.woff2",
+      "path": "assets/sfcompute.com/vc-ap-d5fa6a/_next/static/immutable/media/ABCOtto_Regular-s.p.2e38b43-d3gsi.woff2",
+      "status": 200,
+      "bytes": 81788,
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://sfcompute.com/specs",
+      "path": "assets/sfcompute.com/specs.bin",
+      "status": 200,
+      "bytes": 71149,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/contact",
+      "path": "assets/sfcompute.com/contact.bin",
+      "status": 200,
+      "bytes": 160789,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/.well-known/marketing-jwks.json",
+      "path": "assets/sfcompute.com/.well-known/marketing-jwks.json",
+      "status": 200,
+      "bytes": 168,
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://sfcompute.com/requirements",
+      "path": "assets/sfcompute.com/requirements.bin",
+      "status": 200,
+      "bytes": 69271,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/",
+      "path": "assets/sfcompute.com/index.bin",
+      "status": 200,
+      "bytes": 160218,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://sfcompute.com/home/careers/golden-gate.jpg",
+      "path": "assets/sfcompute.com/home/careers/golden-gate.jpg",
+      "status": 200,
+      "bytes": 63456,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://sfcompute.com/home/careers/silicon-valley-map.jpg",
+      "path": "assets/sfcompute.com/home/careers/silicon-valley-map.jpg",
+      "status": 200,
+      "bytes": 138487,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://sfcompute.com/home/careers/whiteboard.jpg",
+      "path": "assets/sfcompute.com/home/careers/whiteboard.jpg",
+      "status": 200,
+      "bytes": 138824,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://sfcompute.com/home/careers/team-group.jpg",
+      "path": "assets/sfcompute.com/home/careers/team-group.jpg",
+      "status": 200,
+      "bytes": 276685,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://sfcompute.com/home/careers/office-desks.jpg",
+      "path": "assets/sfcompute.com/home/careers/office-desks.jpg",
+      "status": 200,
+      "bytes": 157818,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://sfcompute.com/home/careers/standing-desk.jpg",
+      "path": "assets/sfcompute.com/home/careers/standing-desk.jpg",
+      "status": 200,
+      "bytes": 68665,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://sfcompute.com/home/careers/marin-headlands.jpg",
+      "path": "assets/sfcompute.com/home/careers/marin-headlands.jpg",
+      "status": 200,
+      "bytes": 45175,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://sfcompute.com/home/careers/team-patches.jpg",
+      "path": "assets/sfcompute.com/home/careers/team-patches.jpg",
+      "status": 200,
+      "bytes": 104796,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://sfcompute.com/home/careers/cake-cutting.jpg",
+      "path": "assets/sfcompute.com/home/careers/cake-cutting.jpg",
+      "status": 200,
+      "bytes": 76656,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://sfcompute.com/home/careers/merch-shelf.jpg",
+      "path": "assets/sfcompute.com/home/careers/merch-shelf.jpg",
+      "status": 200,
+      "bytes": 107599,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://sfcompute.com/home/careers/dolores-park.jpg",
+      "path": "assets/sfcompute.com/home/careers/dolores-park.jpg",
+      "status": 200,
+      "bytes": 70957,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://sfcompute.com/home/careers/chinatown.jpg",
+      "path": "assets/sfcompute.com/home/careers/chinatown.jpg",
+      "status": 200,
+      "bytes": 104995,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://sfcompute.com/home/careers/birthday-cake.jpg",
+      "path": "assets/sfcompute.com/home/careers/birthday-cake.jpg",
+      "status": 200,
+      "bytes": 67697,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://sfcompute.com/logo/logo-circle.svg",
+      "path": "assets/sfcompute.com/logo/logo-circle.svg",
+      "status": 200,
+      "bytes": 1397,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://sfcompute.com/brand/logo-circle-inverted.svg",
+      "path": "assets/sfcompute.com/brand/logo-circle-inverted.svg",
+      "status": 200,
+      "bytes": 1392,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://sfcompute.com/brand/wordmark.svg",
+      "path": "assets/sfcompute.com/brand/wordmark.svg",
+      "status": 200,
+      "bytes": 16967,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://sfcompute.com/brand/logo-noisy.png",
+      "path": "assets/sfcompute.com/brand/logo-noisy.png",
+      "status": 200,
+      "bytes": 175376,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://sfcompute.com/brand/wordmark-inverted.svg",
+      "path": "assets/sfcompute.com/brand/wordmark-inverted.svg",
+      "status": 200,
+      "bytes": 16986,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://sfcompute.com/brand/fine-arts.png",
+      "path": "assets/sfcompute.com/brand/fine-arts.png",
+      "status": 200,
+      "bytes": 9264273,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://sfcompute.com/brand/logo-sky.png",
+      "path": "assets/sfcompute.com/brand/logo-sky.png",
+      "status": 200,
+      "bytes": 947689,
+      "content_type": "image/png"
+    }
+  ],
+  "missing": [
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/image?url=%2Fhome%2Fcareers%2Fwhiteboard.jpg&amp;w=1920&amp;q=75&amp;dpl=dpl_DD5XwcVSweCtgL7KN5frLJFzA7Qa",
+      "status": 400
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/image?url=%2Fhome%2Fcareers%2Fgolden-gate.jpg&amp;w=1920&amp;q=75&amp;dpl=dpl_DD5XwcVSweCtgL7KN5frLJFzA7Qa",
+      "status": 400
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/image?url=%2Fhome%2Fcareers%2Fsilicon-valley-map.jpg&amp;w=1920&amp;q=75&amp;dpl=dpl_DD5XwcVSweCtgL7KN5frLJFzA7Qa",
+      "status": 400
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/image?url=%2Fhome%2Fcareers%2Fteam-group.jpg&amp;w=1920&amp;q=75&amp;dpl=dpl_DD5XwcVSweCtgL7KN5frLJFzA7Qa",
+      "status": 400
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/image?url=%2Fhome%2Fcareers%2Fstanding-desk.jpg&amp;w=1920&amp;q=75&amp;dpl=dpl_DD5XwcVSweCtgL7KN5frLJFzA7Qa",
+      "status": 400
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/image?url=%2Fhome%2Fcareers%2Fteam-patches.jpg&amp;w=1080&amp;q=75&amp;dpl=dpl_DD5XwcVSweCtgL7KN5frLJFzA7Qa",
+      "status": 400
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/image?url=%2Fhome%2Fcareers%2Fcake-cutting.jpg&amp;w=1080&amp;q=75&amp;dpl=dpl_DD5XwcVSweCtgL7KN5frLJFzA7Qa",
+      "status": 400
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/image?url=%2Fhome%2Fcareers%2Fmarin-headlands.jpg&amp;w=1080&amp;q=75&amp;dpl=dpl_DD5XwcVSweCtgL7KN5frLJFzA7Qa",
+      "status": 400
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/image?url=%2Fhome%2Fcareers%2Fmerch-shelf.jpg&amp;w=1080&amp;q=75&amp;dpl=dpl_DD5XwcVSweCtgL7KN5frLJFzA7Qa",
+      "status": 400
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/image?url=%2Fhome%2Fcareers%2Fdolores-park.jpg&amp;w=1080&amp;q=75&amp;dpl=dpl_DD5XwcVSweCtgL7KN5frLJFzA7Qa",
+      "status": 400
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/image?url=%2Fhome%2Fcareers%2Fchinatown.jpg&amp;w=1080&amp;q=75&amp;dpl=dpl_DD5XwcVSweCtgL7KN5frLJFzA7Qa",
+      "status": 400
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/image?url=%2Fhome%2Fcareers%2Fbirthday-cake.jpg&amp;w=1920&amp;q=75&amp;dpl=dpl_DD5XwcVSweCtgL7KN5frLJFzA7Qa",
+      "status": 400
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/image?url=%2Fhome%2Ffooter-visual.png&amp;w=3840&amp;q=75&amp;dpl=dpl_DD5XwcVSweCtgL7KN5frLJFzA7Qa",
+      "status": 400
+    },
+    {
+      "url": "https://sfcompute.com/vc-ap-d5fa6a/_next/image?url=%2Fhome%2Fcareers%2Foffice-desks.jpg&amp;w=1920&amp;q=75&amp;dpl=dpl_DD5XwcVSweCtgL7KN5frLJFzA7Qa",
+      "status": 400
+    }
+  ]
+}
