@@ -1,0 +1,67 @@
+/* Bottom-sheet motion copied from the source site's t-sheet-in/out and
+   t-scrim-in/out keyframes. Presence is driven by React so the sheet keeps its
+   exit animation — building from the server HTML alone would have shipped none. */
+
+.scrim {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: var(--overlay, #18181b66);
+  animation: scrim-in var(--duration-normal, 0.2s) ease both;
+}
+
+.scrim[data-state="closed"] {
+  animation-name: scrim-out;
+}
+
+.sheet {
+  position: fixed;
+  inset-inline: 0;
+  bottom: 0;
+  z-index: 61;
+  max-height: 85svh;
+  overflow-y: auto;
+  border-radius: 12px 12px 0 0;
+  background: var(--color-page);
+  animation: sheet-in var(--duration-medium, 0.25s) cubic-bezier(0.32, 0.72, 0, 1) both;
+}
+
+.sheet[data-state="closed"] {
+  animation-name: sheet-out;
+}
+
+@keyframes scrim-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scrim-out {
+  0% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes sheet-in {
+  0% {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes sheet-out {
+  0% {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}

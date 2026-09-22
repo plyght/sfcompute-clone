@@ -11,17 +11,26 @@
     "site:smoke": "node scripts/smoke-check.mjs"
   },
   "dependencies": {
+    "@visx/axis": "^4.0.0",
+    "@visx/event": "^4.0.0",
+    "@visx/group": "^4.0.0",
+    "@visx/point": "^4.0.0",
+    "@visx/responsive": "^4.0.0",
+    "@visx/scale": "^4.0.0",
+    "@visx/shape": "^4.0.0",
+    "d3-array": "^3.2.4",
     "next": "15.5.4",
     "react": "19.1.1",
     "react-dom": "19.1.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.13",
+    "@types/d3-array": "^3.2.2",
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "playwright": "^1.63.0",
     "tailwindcss": "^4.1.13",
-    "typescript": "^5.7.3",
-    "playwright": "^1.50.0"
+    "typescript": "^5.7.3"
   }
 }
