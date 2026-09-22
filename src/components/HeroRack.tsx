@@ -1,6 +1,9 @@
 "use client";
 
+import { useRef } from "react";
 import { HeroArtwork } from "./HeroArtwork";
+import { HeroDials } from "./HeroDials";
+import { useHeroPowerCables } from "./HeroPowerCables";
 
 const EDGE_FADE =
   "linear-gradient(to right, var(--color-page) 0, var(--color-page) 30%, color-mix(in srgb, var(--color-page) 88%, transparent) 45%, color-mix(in srgb, var(--color-page) 68%, transparent) 58%, color-mix(in srgb, var(--color-page) 42%, transparent) 70%, color-mix(in srgb, var(--color-page) 20%, transparent) 80%, transparent 90%)";
@@ -10,10 +13,15 @@ const EDGE_FADE =
  * the reading column and fade out at the viewport edges.
  */
 export function HeroRack() {
+  // The cables are static markup; only their energy packets move, so the
+  // animation reaches them through a ref rather than re-rendering the group.
+  const powerRef = useRef<SVGGElement>(null);
+  useHeroPowerCables(powerRef);
+
   return (
     <div className="relative mt-10">
       <div className="relative -z-10 ml-4 w-[calc((100%_-_16px)_*_706_/_736)] translate-x-4 lg:translate-x-0">
-        <HeroArtwork />
+        <HeroArtwork dials={<HeroDials />} powerRef={powerRef} />
       </div>
 
       {/* Vertical seam that hides where the drawing crosses the right rule. */}

@@ -9,22 +9,30 @@ import { cn } from "@/lib/cn";
  */
 export function AnchorHeading({
   id,
+  headingId,
   as: Tag = "h2",
+  scale = "t-h1 text-pretty",
   className,
   children,
 }: {
+  /** Fragment the copied link points at, when the target is an ancestor section. */
   id?: string;
+  /** Fragment the heading element itself owns — doubles as the copy target. */
+  headingId?: string;
   as?: "h1" | "h2" | "h3";
+  /** Type-scale classes; override for the smaller `t-h3` document headings. */
+  scale?: string;
   className?: string;
   children: React.ReactNode;
 }) {
+  const anchor = headingId ?? id;
   const copy = () => {
-    const url = `${window.location.origin}${window.location.pathname}${id ? `#${id}` : ""}`;
+    const url = `${window.location.origin}${window.location.pathname}${anchor ? `#${anchor}` : ""}`;
     navigator.clipboard?.writeText(url).catch(() => {});
   };
 
   return (
-    <Tag className={cn("t-h1 text-pretty text-ink", className)}>
+    <Tag id={headingId} className={cn(scale, "text-ink", className)}>
       <button
         type="button"
         title="Copy link to this section"

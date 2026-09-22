@@ -11,6 +11,13 @@ export function NavLink({
   className?: string;
   current?: boolean;
 }) {
+  if (link.download) {
+    return (
+      <a href={link.href} download className={className}>
+        {link.label}
+      </a>
+    );
+  }
   if (link.external) {
     return (
       <a target="_blank" rel="noopener noreferrer" className={className} href={link.href}>

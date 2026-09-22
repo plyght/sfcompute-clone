@@ -3,6 +3,8 @@ export type NavLink = {
   href: string;
   /** Off-site links render as plain anchors with rel=noopener. */
   external?: boolean;
+  /** Served as a file download rather than navigated to. */
+  download?: boolean;
 };
 
 export const PRIMARY_NAV: NavLink[] = [
@@ -61,6 +63,6 @@ export const FOOTER_COLUMNS: FooterColumn[] = [
   },
   {
     title: "Media",
-    links: [{ label: "Press Kit (13.5MB)", href: "/press-kit.zip" }],
+    links: [{ label: "Press Kit  (13.5MB)", href: "/brand/press-kit.zip", download: true }],
   },
 ];

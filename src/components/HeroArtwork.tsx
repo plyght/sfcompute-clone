@@ -1,3 +1,5 @@
+import type { ReactNode, Ref } from "react";
+
 /**
  * The homepage hero: a technical line drawing of a rack, copied verbatim from
  * the source site's inline SVG so it stays hand-editable.
@@ -5,8 +7,12 @@
  * The groups are addressable by `data-part` ("server", "power", "dials",
  * "server-rows", "server-rails", "server-hatch", "server-cap"), which is how
  * HeroRack animates them — see HeroRack.tsx.
+ *
+ * Two seams are left for the client layers, matching the source: the dial plot
+ * is passed in (the server ships an empty group) and the power group hands out
+ * a ref so its packets can be driven.
  */
-export function HeroArtwork() {
+export function HeroArtwork({ dials, powerRef }: { dials?: ReactNode; powerRef?: Ref<SVGGElement> }) {
   return (
     <svg width={706} height={298} viewBox="0 0 706 298" fill="none" strokeWidth="0.6" overflow="visible" aria-hidden="true" className="block h-auto w-full">
       <defs>
@@ -23,32 +29,32 @@ export function HeroArtwork() {
         <path id="hm-tray" d="M273.72 0C273.75 -0.39 274.24 -1.34 275.93 -2.04C277.61 -2.74 285.59 -2.83 287.36 -2.79A2 0.84 0 0 0 287.36 -4.47H2.5A2 0.84 0 0 0 2.5 -2.79C4.28 -2.83 12.25 -2.74 13.94 -2.04C15.62 -1.34 16.11 -0.39 16.14 0H273.72Z" fill="white" stroke="var(--color-dark-800)"></path>
       </defs>
       <g data-part="server" transform="translate(4 0)">
-        <g data-part="power" data-ink="line">
+        <g data-part="power" data-ink="line" ref={powerRef}>
           <linearGradient id="hd-cable-fade" gradientUnits="userSpaceOnUse" x1="-1000" y1="0" x2="-18" y2="0">
             <stop offset="0" stopColor="var(--color-dark-100)" stopOpacity="0"></stop>
             <stop offset="1" stopColor="var(--color-dark-100)"></stop>
           </linearGradient>
-          <path d="M-18.0 291.0C-48.0 222.7 -500.0 193.8 -1000.0 193.8" fill="none" stroke="url(#hd-cable-fade)" strokeWidth="1"></path>
-          <path d="M-18.0 291.0C-48.0 240.5 -500.0 223.5 -1000.0 223.5" fill="none" stroke="url(#hd-cable-fade)" strokeWidth="1"></path>
-          <path d="M-18.0 291.0C-48.0 258.4 -500.0 253.3 -1000.0 253.3" fill="none" stroke="url(#hd-cable-fade)" strokeWidth="1"></path>
-          <path d="M-18.0 291.0C-48.0 276.2 -500.0 283.0 -1000.0 283.0" fill="none" stroke="url(#hd-cable-fade)" strokeWidth="1"></path>
-          <path d="M-18.0 291.0C-14.0 289.8 0.6 289.8 2.6 283.0L11.5 283.0" fill="none" stroke="var(--color-dark-100)" strokeWidth="1"></path>
-          <circle r="1.3" fill="#C6C6C6" opacity="0"></circle>
-          <circle r="1.3" fill="#4C78F5" opacity="0"></circle>
-          <circle r="1.3" fill="#4C78F5" opacity="0"></circle>
-          <circle r="1.3" fill="#4C78F5" opacity="0"></circle>
-          <circle r="1.3" fill="#4C78F5" opacity="0"></circle>
-          <circle r="1.3" fill="#4C78F5" opacity="0"></circle>
-          <circle r="1.3" fill="#4C78F5" opacity="0"></circle>
-          <circle r="1.3" fill="#C6C6C6" opacity="0"></circle>
-          <circle r="1.3" fill="#C6C6C6" opacity="0"></circle>
-          <circle r="1.3" fill="#4C78F5" opacity="0"></circle>
-          <circle r="1.3" fill="#4C78F5" opacity="0"></circle>
-          <circle r="1.3" fill="#C6C6C6" opacity="0"></circle>
-          <circle r="1.3" fill="#C6C6C6" opacity="0"></circle>
-          <circle r="1.3" fill="#C6C6C6" opacity="0"></circle>
-          <circle r="1.3" fill="#C6C6C6" opacity="0"></circle>
-          <circle r="1.3" fill="#4C78F5" opacity="0"></circle>
+          <path data-part="cable" d="M-18.0 291.0C-48.0 222.7 -500.0 193.8 -1000.0 193.8" fill="none" stroke="url(#hd-cable-fade)" strokeWidth="1"></path>
+          <path data-part="cable" d="M-18.0 291.0C-48.0 240.5 -500.0 223.5 -1000.0 223.5" fill="none" stroke="url(#hd-cable-fade)" strokeWidth="1"></path>
+          <path data-part="cable" d="M-18.0 291.0C-48.0 258.4 -500.0 253.3 -1000.0 253.3" fill="none" stroke="url(#hd-cable-fade)" strokeWidth="1"></path>
+          <path data-part="cable" d="M-18.0 291.0C-48.0 276.2 -500.0 283.0 -1000.0 283.0" fill="none" stroke="url(#hd-cable-fade)" strokeWidth="1"></path>
+          <path data-part="plug-lead" d="M-18.0 291.0C-14.0 289.8 0.6 289.8 2.6 283.0L11.5 283.0" fill="none" stroke="var(--color-dark-100)" strokeWidth="1"></path>
+          <circle data-part="packet" r="1.3" fill="#C6C6C6" opacity="0"></circle>
+          <circle data-part="packet" r="1.3" fill="#4C78F5" opacity="0"></circle>
+          <circle data-part="packet" r="1.3" fill="#4C78F5" opacity="0"></circle>
+          <circle data-part="packet" r="1.3" fill="#4C78F5" opacity="0"></circle>
+          <circle data-part="packet" r="1.3" fill="#4C78F5" opacity="0"></circle>
+          <circle data-part="packet" r="1.3" fill="#4C78F5" opacity="0"></circle>
+          <circle data-part="packet" r="1.3" fill="#4C78F5" opacity="0"></circle>
+          <circle data-part="packet" r="1.3" fill="#C6C6C6" opacity="0"></circle>
+          <circle data-part="packet" r="1.3" fill="#C6C6C6" opacity="0"></circle>
+          <circle data-part="packet" r="1.3" fill="#4C78F5" opacity="0"></circle>
+          <circle data-part="packet" r="1.3" fill="#4C78F5" opacity="0"></circle>
+          <circle data-part="packet" r="1.3" fill="#C6C6C6" opacity="0"></circle>
+          <circle data-part="packet" r="1.3" fill="#C6C6C6" opacity="0"></circle>
+          <circle data-part="packet" r="1.3" fill="#C6C6C6" opacity="0"></circle>
+          <circle data-part="packet" r="1.3" fill="#C6C6C6" opacity="0"></circle>
+          <circle data-part="packet" r="1.3" fill="#4C78F5" opacity="0"></circle>
           <line x1="-27" y1="296.2" x2="-9" y2="296.2" stroke="var(--color-dark-200)" strokeWidth="1.5"></line>
           <line x1="-18" y1="295.7" x2="-18" y2="291" stroke="var(--color-dark-200)" strokeWidth="1.5"></line>
           <circle cx="-18" cy="291" r="5.2" fill="white" stroke="var(--color-dark-200)" strokeWidth="1.2"></circle>
@@ -354,7 +360,7 @@ export function HeroArtwork() {
           </g>
         </g>
       </g>
-      <g data-part="dials"></g>
+      {dials ?? <g data-part="dials"></g>}
     </svg>
   );
 }
